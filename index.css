@@ -5,5 +5,27 @@ html {
 }
 
 body {
-  background-color:rgb(206, 206, 206);
+  background-color: white;
+  border: 3px solid rgb(35, 35, 35);
+  border-radius: 5px;
+  color: rgb(35, 35, 35);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
+  text-align: center;
+  cursor: url('question.png') 0 16, pointer;
+}
+
+h1 {
+  margin: 7px 0 10px;
+}
+
+#sheet {
+  background: linear-gradient( to bottom, #d4d4d4, #d4d4d4 50%, white 50%, white);
+  background-size: 100% 38px;
+}
+
+input[type='radio'] {
+  transform: scale(1.21);
+  accent-color: #232323;
+  cursor: url('pencil.png') 0 16, default;
 }
