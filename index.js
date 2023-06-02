@@ -19,7 +19,7 @@ window.addEventListener("load", () => {
             buttons[getRandomInt(0, total)].checked = "true";
             break;
           default:
-            for (let n = 0; n < getRandomInt(0, total); n++) {
+            for (let n = 0; n < getRandomInt(1, total); n++) {
               buttons[getRandomInt(0, total)].style.visibility = "hidden";
             }
             break;
