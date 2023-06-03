@@ -27,7 +27,7 @@ body {
 h1 {
   margin: 0 auto;
   padding: 7px 0 10px;
-  color: white;
+  color: var(--main-bg-color);;
 }
 
 #heading {
@@ -41,6 +41,6 @@ h1 {
 
 input[type='radio'] {
   transform: scale(1.21);
-  accent-color: #232323;
+  accent-color: #3861f0;
   cursor: url('pencil.png') 0 16, default;
 }
