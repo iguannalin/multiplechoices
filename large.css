@@ -1,0 +1,12 @@
+body {
+  font-size: 12px;
+}
+
+#sheet {
+  background-size: 100% 38px;
+}
+
+input[type='radio'] {
+  width: 13px;
+  height: 13px;
+}

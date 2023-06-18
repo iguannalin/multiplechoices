@@ -1,3 +1,6 @@
+@import url(small.css) (min-width:0px);
+@import url(large.css) (min-width:700px);
+
 :root {
   --main-bg-color: rgb(35, 35, 35);
   --main-text-color: rgb(255 255 255);
@@ -17,7 +20,6 @@ body {
   font-weight: 400;
   color: var(--main-text-color);
   font-family: 'Times New Roman', Times, serif;
-  font-size: 12px;
   text-align: center;
   cursor: url('question.png') 0 16, pointer;
   display: flex;
@@ -46,8 +48,6 @@ h1 {
 }
 
 input[type='radio'] {
-  width: 13px;
-  height: 13px;
   accent-color: #3861f0;
   cursor: url('pencil.png') 0 16, default;
 }
