@@ -22,8 +22,10 @@ body {
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
   cursor: url('question.png') 0 16, pointer;
+  height: 100vh;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 h1 {
@@ -40,11 +42,6 @@ h1 {
 
 #heading {
   background-color: var(--alt-bg-color);
-}
-
-#sheet {
-  background: linear-gradient( to bottom, var(--main-text-color), var(--main-text-color) 50%, var(--alt-bg-color) 50%, var(--alt-bg-color));
-  background-size: 100% 38px;
 }
 
 input[type='radio'] {

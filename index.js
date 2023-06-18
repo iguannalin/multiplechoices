@@ -3,7 +3,7 @@ window.addEventListener("load", () => {
   let buttons = [];
   // make the buttons fit the page as best as possible
   let width = Math.floor((document.body.offsetWidth - 200) / 21);
-  let height = Math.floor((window.innerHeight - 300) / 17);
+  let height = Math.floor((window.innerHeight) / 21);
   let total = width * height;
   for (let i = 0; i < width; i++) {
     for (let j = 0; j < height; j++) {
