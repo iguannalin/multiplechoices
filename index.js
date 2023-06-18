@@ -2,8 +2,8 @@ window.addEventListener("load", () => {
   const sheet = document.getElementById("sheet");
   let buttons = [];
   // make the buttons fit the page as best as possible
-  let width = Math.floor((document.body.offsetWidth - 20) / 21);
-  let height = Math.floor((window.innerHeight - 150) / 17);
+  let width = Math.floor((document.body.offsetWidth - 200) / 21);
+  let height = Math.floor((window.innerHeight - 300) / 17);
   let total = width * height;
   for (let i = 0; i < width; i++) {
     for (let j = 0; j < height; j++) {
@@ -12,8 +12,9 @@ window.addEventListener("load", () => {
       // every time a button is clicked, choose between:
       // turning on a random button, or
       // hiding a lot of other buttons
-      radio.onclick = () => {
+      radio.onclick = (e) => {
         let r = Math.floor(Math.random() * 10);
+        e.target.style.visibility = "hidden";
         switch (r % 2) {
           case 0:
             buttons[getRandomInt(0, total)].checked = "true";
